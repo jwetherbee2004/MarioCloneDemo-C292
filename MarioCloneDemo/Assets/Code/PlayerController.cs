@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         float moveInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector2.right * moveInput * Time.deltaTime);
+        transform.Translate(Vector2.right * moveInput * runSpeed * Time.deltaTime);
     }
 
     private void Jump()

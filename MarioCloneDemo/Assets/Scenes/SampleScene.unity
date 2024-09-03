@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de622dbadc14d34f844fb334282ac60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 100
+  runSpeed: 5
   jumpSpeed: 5
   direction: {x: 0, y: 0}
   rb2d: {fileID: 0}
